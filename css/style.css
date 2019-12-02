@@ -1,0 +1,384 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: none;
+  background-color: #748CAB;
+  overflow-x: hidden;
+}
+
+.material-icons {
+  position: absolute;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.Dgui {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background-color: #F0EBD8;
+}
+
+.Dlogo {
+  position: absolute;
+  left: 3%;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 4em;
+  color: #FF331F;
+  font-weight: 700;
+  opacity: 0.5;
+}
+
+.Dnav {
+  position: absolute;
+  width: 7.5%;
+  top: 3%;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.85em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Dt1 {
+  position: absolute;
+  width: 40%;
+  max-width: 420px;
+  top: 30%;
+  left: 10%;
+  font-size: 2.7em;
+  color: black;
+  opacity: 0.75;
+  font-family: 'Playfair Display', serif;
+  line-height: 1em;
+}
+
+.Dt2 {
+  position: absolute;
+  width: 20%;
+  max-width: 250px;
+  min-width: 100px;
+  top: 65%;
+  left: 10%;
+  font-size: 0.75em;
+  color: black;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Dbutton {
+  position: absolute;
+  width: 15%;
+  left: 10%;
+  top: 80%;
+  font-size: 1em;
+  color: #FF331F;
+  border: solid #FF331F;
+  border-radius: 5em;
+  border-width: 0.05em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  text-align: center;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.Dpage2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  background-color: #0A2342;
+}
+
+.Dt3 {
+  position: absolute;
+  width: 60%;
+  top: 10%;
+  left: 20%;
+  font-size: 3em;
+  color: white;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.Dprocess {
+  position: absolute;
+  width: 10%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Dprocess:after {
+  content: "";
+  display: inline-block;
+  padding-bottom: 100%;
+}
+
+.protext {
+  position: absolute;
+  width: 90%;
+  top: 40%;
+  left: 5%;
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.explain {
+  position: absolute;
+  width: 10%;
+  font-size: 1.25em;
+  text-align: center;
+  opacity: 0.7;
+  cursor: pointer;
+  color: white;
+}
+
+@keyframes bounce {
+  0%   {top: 65%;}
+  25%  {top: 30%;}
+  50%  {top: 60%;}
+  100% {top: 55%;}
+}
+
+@keyframes bounceC {
+  0%   {top: 55%;}
+  25%  {top: 20%;}
+  50%  {top: 50%;}
+  100% {top: 45%;}
+}
+
+@keyframes bounceLeft {
+  0%   {left: 40%;}
+  50%  {left: 100%;}
+  100% {left: 40%;}
+  iterations: infinity;
+}
+
+.page3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  background-color: #6B6D76;
+}
+
+.logo2 {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 7em;
+  color: #FF331F;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.dt4 {
+  position: absolute;
+  width: 60%;
+  top: 20%;
+  left: 50%;
+  font-size: 3em;
+  font-family: 'Playfair Display', serif;
+}
+
+.servicelist {
+  position: absolute;
+  width: 22%;
+  top: 40%;
+  left: 6%;
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  text-align: right;
+  cursor: pointer;
+}
+
+.description {
+  position: absolute;
+  width: 56%;
+  height: 50%;
+  top: 40%;
+  left: 40%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.5em;
+  line-height: 0.85em;
+  color: #E8C547;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  top: 95%;
+  left: 0%;
+  background-color: #0A2342;
+  display: inline-block;
+}
+
+.copyrightbox {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  left: 40%;
+}
+
+.ctext {
+  position: absolute;
+  width: 75%;
+  left: 10%;
+  top: 23%;
+  font-size: 0.8em;
+  color: white;
+}
+
+#menu {
+  left: 95%;
+  color: black;
+}
+
+#pro1 {
+  top: 55%;
+  left: 20%;
+  background-color: #2CA58D;
+}
+
+#pro2 {
+  top: 45%;
+  left: 42.5%;
+  background-color: #5F4BB6;
+}
+
+#pro3 {
+  top: 55%;
+  left: 65%;
+  background-color: #845A6D;
+}
+#exp1 {
+  top: 80%;
+  left: 20%;
+}
+
+#exp2 {
+  top: 70%;
+  left: 42.5%;
+}
+
+#exp3 {
+  top: 80%;
+  left: 65%;
+}
+
+#cLogo {
+  position: absolute;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 50;
+  top: 25%;
+}
+
+.Mgui {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: #F0EBD8;
+}
+
+.Mlogo {
+  position: absolute;
+  left: 2.5%;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 4em;
+  color: black;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.Mnav {
+  display: none;
+}
+
+.Mt1 {
+  position: absolute;
+  width: 50%;
+  top: 35%;
+  left: 25%;
+  text-align: center;
+  font-size: 2.7em;
+  color: black;
+  opacity: 0.75;
+  font-family: 'Playfair Display', serif;
+  line-height: 1em;
+}
+
+.Mt2 {
+  position: absolute;
+  width: 50%;
+  top: 65%;
+  left: 25%;
+  font-size: 1em;
+  text-align: center;
+  color: black;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Mbutton {
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  top: 85%;
+  font-size: 1em;
+  color: #FF331F;
+  border: solid #FF331F;
+  border-radius: 5em;
+  border-width: 0.05em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  font-weight: 200;
+}
+
+.Mpage2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  background-color: #F0EBD8;
+}
+
+.Mt3 {
+  position: absolute;
+  width: 60%;
+  top: 10%;
+  left: 20%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.Mprocess {
+  position: absolute;
+  width: 10%;
+  border-radius: 50%;
+}
+
+.Mprocess:after {
+  content: "";
+  display: inline-block;
+  padding-bottom: 100%;
+}
